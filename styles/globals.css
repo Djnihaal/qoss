@@ -34,7 +34,9 @@ body {
   opacity: 1;
   transition: opacity 1000ms ease-in-out;
 }
-
+.page-transition-exit {
+  opacity: 1;
+}
 .page-transition-exit-active {
   opacity: 0;
   transition: opacity 1000ms ease-in-out;
